@@ -4,13 +4,14 @@ import { FacebookComponent } from './components/facebook/facebook.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GoogleComponent } from './components/google/google.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'google', component: GoogleComponent},
   {path: 'facebook', component: FacebookComponent},
   {path: 'amazon', component: AmazonComponent},
-  {path: '**', component: IndexComponent}
+  {path: '**', component: NotFoundComponent}
 ];
 
 @NgModule({

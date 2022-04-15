@@ -7,6 +7,7 @@ import { GoogleComponent } from './components/google/google.component';
 import { AmazonComponent } from './components/amazon/amazon.component';
 import { FacebookComponent } from './components/facebook/facebook.component';
 import { IndexComponent } from './components/index/index.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IndexComponent } from './components/index/index.component';
     GoogleComponent,
     AmazonComponent,
     FacebookComponent,
-    IndexComponent
+    IndexComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
